@@ -219,7 +219,7 @@ mixin custom-carousel-2(arr, carouselNumber, items, string)
 mixin breadcrumb(arr) 
   nav(aria-label='breadcrumb')
     .container
-      ol.breadcrumb.bg-white.pl-0.py-30px.mb-0
+      ol.breadcrumb.bg-white.pl-0.py-30px
         each item,index in arr
           if index !== arr.length-1
             li.breadcrumb-item
