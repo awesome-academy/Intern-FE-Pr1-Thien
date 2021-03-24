@@ -162,11 +162,7 @@ mixin custom-carousel-1(arr, carouselNumber, items, columnClass, lgClass = false
       default:
         string = ' d-md-none';
     }
-<<<<<<< HEAD
   div(id= `carouselExampleControls${carouselNumber}` class= `carousel slide${string}` data-ride='carousel')  
-=======
-  div(id= `carouselExampleControls${carouselNumber}` class= `carousel slide${string}` data-ride='carousel' data-interval='1000000')  
->>>>>>> 6995349 (finish task 7)
     .carousel-inner
       while i<page
         - let childArr = arr.slice(i*items, i*items + items)
